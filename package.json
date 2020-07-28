@@ -1,7 +1,7 @@
 {
     "name": "react-native-kbzpay-sdk",
     "version": "1.0.0",
-    "description": "",
+    "description": "KBZPay SDK for react native",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

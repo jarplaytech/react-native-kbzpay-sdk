@@ -11,10 +11,10 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 
-public class RNReactNativeKbzpaySdkPackage implements ReactPackage {
+public class RNKbzpaySdkPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.<NativeModule>asList(new RNReactNativeKbzpaySdkModule(reactContext));
+        return Arrays.<NativeModule>asList(new RNKbzpaySdkModule(reactContext));
     }
 
     @Override
